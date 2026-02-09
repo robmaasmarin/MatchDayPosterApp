@@ -201,17 +201,15 @@ MatchDayPosterApp/
 ### Form Interface
 ![Form interface](screenshots/form.png)
 
-### Background Selector
-![Background selector](screenshots/backgrounds.png)
+### Generated Poster - María Pita
+![Poster Marina](screenshots/cartelmariapita.png)
 
 ### Generated Poster - Marina
-![Poster Marina](screenshots/poster-marina.png)
+![Poster Marina](screenshots/cartelmarina.png)
 
 ### Generated Poster - Torre
-![Poster Torre](screenshots/poster-torre.png)
+![Poster Torre](screenshots/carteltorre.png)
 
-### Mobile View
-![Mobile view](screenshots/mobile.png)
 
 ---
 
@@ -258,9 +256,7 @@ MatchDayPosterApp/
 - More background templates
 - Custom font selection
 - Social media sharing integration
-- Drag-and-drop badge upload
 - Multi-language support
-- Print-ready PDF export
 
 ---
 
@@ -291,7 +287,6 @@ git clone https://github.com/yourusername/matchday-posters.git
 ## 👨‍💻 Author
 
 Developed by **Roberto Abelleira Pesqueira**  
-Portfolio project demonstrating frontend development skills.
 
 ---
 
