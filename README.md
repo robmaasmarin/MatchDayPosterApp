@@ -6,8 +6,6 @@ Originally developed in 2022 for internal club use, this project has been update
 
 ---
 
----
-
 ## 📱 Features
 
 - 🏆 Select category and competition
@@ -37,118 +35,6 @@ Originally developed in 2022 for internal club use, this project has been update
 
 The project follows a clean modular structure:
 ```text
-matchday-posters/
-│   index.html
-│   README.md
-│
-├───img
-│   │   1.png
-│   │   2.png
-│   │   3.png
-│   │   4.png
-│   │
-│   ├───crests
-│   │       adcristorey.png
-│   │       adculleredo.png
-│   │       almeiras.png
-│   │       atarteixo.png
-│   │       atsanpedro.png
-│   │       batallador.png
-│   │       bergan.png
-│   │       betanzos.png
-│   │       brexolema.png
-│   │       calasanz2.png
-│   │       campestre.png
-│   │       castros.png
-│   │       cdobrero2.png
-│   │       cjardin.png
-│   │       cmaria.png
-│   │       coiros.png
-│   │       cristal.png
-│   │       domar.jpg
-│   │       domar.png
-│   │       eiris.png
-│   │       esclavas2.png
-│   │       escudo-orzan.png
-│   │       escudomini.png
-│   │       ggaiteira.png
-│   │       imperator.png
-│   │       laracha.png
-│   │       larin.png
-│   │       liceo.png
-│   │       liceomonelos.png
-│   │       maninos.png
-│   │       maravillassd.png
-│   │       maristas2.png
-│   │       marte.png
-│   │       montaneros.png
-│   │       obradoiro.png
-│   │       olimpico.png
-│   │       oncecaballeros.png
-│   │       ordes.png
-│   │       orillamar.png
-│   │       orzan.png
-│   │       ozatest.png
-│   │       paiosaco.png
-│   │       pastoriza.png
-│   │       portazgo.png
-│   │       relampago.png
-│   │       rmera.png
-│   │       rsada.png
-│   │       sadaat.png
-│   │       sadacf.png
-│   │       santa.png
-│   │       santirso.png
-│   │       san_cristobal_das_vinas.png
-│   │       scambre.png
-│   │       silva.png
-│   │       sinquerer.png
-│   │       smargarita.png
-│   │       smeicende.png
-│   │       spburgo.png
-│   │       sportingcorunes.png
-│   │       stacruz.png
-│   │       suevos.png
-│   │       torresd.png
-│   │       urale.png
-│   │       usport.png
-│   │       valdovino.png
-│   │       victoria.png
-│   │       viono.png
-│   │       xularacha.png
-│   │       xuvenlaracha.png
-│   │
-│   └───thumbnails
-│           1mini.png
-│           2mini.png
-│           3mini.png
-│           4mini.png
-│
-├───scripts
-│       campos.js
-│       capture.js
-│       cartel.js
-│       categoriaescollida.js
-│       datescript.js
-│       escudoslocal.js
-│       escudovisitante.js
-│       firstscript.js
-│       fondoSelector.js
-│       generarNuevo.js
-│       horaycampo.js
-│       html2canvas.js
-│       utils.js
-│
-└───styles
-    │   meat_buckets.zip
-    │   styles.css
-    │   stylesold.css
-    │
-    └───meat_buckets
-            meat_buckets.png
-            meat_buckets.ttf
-            Read Me.rtf
-
 
 MatchDayPosterApp/
 
@@ -237,6 +123,15 @@ MatchDayPosterApp/
 
 ---
 
+## 💼 Real World Impact
+
+This tool is actively used by C.D. Ciudad de A Coruña's social media team to create match day posters for Instagram, Facebook, and Twitter. It has:
+- Reduced poster creation time from 15-20 minutes to under 2 minutes
+- Ensured consistent branding across all match announcements
+- Enabled non-designers to create professional-looking graphics
+
+---
+
 ## 🚀 What I Learned
 
 - Building responsive layouts with CSS Grid and Flexbox
@@ -264,7 +159,7 @@ MatchDayPosterApp/
 
 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/matchday-posters.git
+git clone https://github.com/robmaasmarin/MatchDayPosterApp.git
 ```
 
 2. Open `index.html` in a modern web browser
