@@ -1,116 +1,649 @@
-body {
-  background-image: url("../img/headerpics/6.png");
-  background-repeat: no-repeat;
-    background-size: cover;
-}
-
-
-#myheader {
-    height: 100px;
-    width: 100%;
-    background-color: aquamarine;
-    text-align: center;
-    padding-top: 0%;
-    background-image: url("../img/headerpics/1.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
+/* RESET Y BASE */
 * {
-    box-sizing: border-box;
-  }
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
-  /* Create two equal columns that floats next to each other */
+body {
+  background: linear-gradient(135deg, #1e293b 0%, #334155 50%, #475569 100%);
+  min-height: 100vh;
+  font-family: 'Lato', sans-serif;
+  position: relative;
+}
 
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: 
+    radial-gradient(circle at 20% 50%, rgba(148, 163, 184, 0.1) 0%, transparent 50%),
+    radial-gradient(circle at 80% 80%, rgba(203, 213, 225, 0.08) 0%, transparent 50%);
+  pointer-events: none;
+  z-index: 0;
+}
 
-.column {
-    float: left;
-    width: 50%;
-    padding: 10px;
-    height: 300px; /* Should be removed. Only for demonstration */
-    text-align: center;
-  }
-  
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
+main.container-fluid {
+  position: relative;
+  z-index: 1;
+}
 
-  .cartel {
-    height: 750px;
-    width: 600px;
-    background-image: url("../img/3.png");
-    background-repeat: no-repeat;
-    font-family: 'Lato', sans-serif;
-  
-  font-style: normal;
+/* HEADER */
+#myheader {
+  width: 100%;
+  background: linear-gradient(135deg, #1e293b 0%, #334155 100%);
+  padding: 2rem 1rem;
+  text-align: center;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  position: relative;
+  overflow: hidden;
+  border-bottom: 2px solid rgba(148, 163, 184, 0.3);
+}
+
+#myheader::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 200%;
+  height: 100%;
+  background: linear-gradient(90deg, 
+    transparent 0%, 
+    rgba(148, 163, 184, 0.15) 50%, 
+    transparent 100%);
+  animation: shine 8s ease-in-out infinite;
+}
+
+@keyframes shine {
+  0%, 100% { left: -100%; }
+  50% { left: 100%; }
+}
+
+#myheader h1 {
+  color: #f1f5f9;
+  font-size: clamp(1.8rem, 5vw, 3.5rem);
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+  margin: 0;
+  font-weight: 900;
+  letter-spacing: 3px;
+  position: relative;
+  z-index: 1;
+  text-transform: uppercase;
+}
+
+/* MAIN CONTAINER */
+main.container-fluid {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+/* FORMULARIO */
+.form-section {
+  background: linear-gradient(135deg, rgba(241, 245, 249, 0.98) 0%, rgba(226, 232, 240, 0.98) 100%);
+  border-radius: 20px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: 
+    0 10px 40px rgba(0, 0, 0, 0.3),
+    0 0 0 1px rgba(148, 163, 184, 0.3);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.poster-form {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.2rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.form-group label {
+  font-weight: 700;
+  color: #1e293b;
+  font-size: 0.95rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 0.85rem;
+}
+
+.form-control {
+  padding: 0.75rem 1rem;
+  border: 2px solid #cbd5e1;
+  border-radius: 12px;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  background: #ffffff;
+  color: #1e293b;
+}
+
+.form-control:focus {
+  outline: none;
+  border-color: #3b82f6;
+  box-shadow: 
+    0 0 0 4px rgba(59, 130, 246, 0.1),
+    0 4px 12px rgba(59, 130, 246, 0.2);
+  transform: translateY(-2px);
+}
+
+.form-control:hover {
+  border-color: #94a3b8;
+}
+
+.form-control option {
+  background: #ffffff;
+  color: #1e293b;
+}
+
+#customCompetition {
+  display: none;
+  margin-top: 0.5rem;
+}
+
+.btn-generate {
+  padding: 1rem 2.5rem;
+  font-size: 1.1rem;
+  font-weight: 700;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+  margin-top: 0.5rem;
+  background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);
+  border: none;
   color: white;
-  text-shadow: -1px 1px 0 black,
-  1px 1px 0 black,
-  1px -1px 0 black,
-  -1px -1px 0 black;
-  }
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  box-shadow: 
+    0 4px 15px rgba(59, 130, 246, 0.4),
+    0 0 30px rgba(59, 130, 246, 0.2);
+  position: relative;
+  overflow: hidden;
+}
 
- 
+.btn-generate::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.3);
+  transform: translate(-50%, -50%);
+  transition: width 0.6s, height 0.6s;
+}
 
-  .category {
-    z-index: 10;
-    
-    font-weight: bold;
-    padding-top: 30px;
-    font-size: 70px;
-    
-    text-align: center;
-  }
+.btn-generate:hover::before {
+  width: 300px;
+  height: 300px;
+}
 
-  #escudosymas {
-    padding-top: 50px;
-  }
+.btn-generate:hover {
+  transform: translateY(-3px);
+  box-shadow: 
+    0 6px 20px rgba(59, 130, 246, 0.5),
+    0 0 40px rgba(59, 130, 246, 0.3);
+  background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
+}
 
-  #customCompetition {
-    display:none; margin-top:8px;
-    margin-left: 200px;
-  }
+.btn-generate:active {
+  transform: translateY(-1px);
+}
 
+/* SECCIÓN DEL CARTEL */
+.poster-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 2rem;
+  width: 100%;
+  overflow-x: auto;
+}
 
+/* CARTEL - SIEMPRE 600x750px */
+.cartel {
+  width: 600px;
+  height: 750px;
+  min-width: 600px;
+  min-height: 750px;
+  background-image: url("../img/1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-family: 'Lato', sans-serif;
+  color: white;
+  text-shadow: -1px 1px 0 black, 1px 1px 0 black, 1px -1px 0 black, -1px -1px 0 black;
+  overflow: hidden;
+  flex-shrink: 0;
+}
 
-  #daytodisplay {
-    
-    font-weight: bold;
-    font-size: 18px;
-    text-align: center;
-    text-shadow: none;
-    
-    
-  }
+.category {
+  font-weight: bold;
+  padding-top: 30px;
+  font-size: 70px;
+  text-align: center;
+}
 
-  #horaecampo {
-    
-    font-weight: bold;
-    font-size: 18px;
-        text-align: center;
-        font-family: Arial, Helvetica, sans-serif;
-    text-shadow: none;
-  }
+.nombreliga {
+  text-align: center;
+  font-weight: bold;
+}
+
+#escudosymas {
+  padding-top: 50px;
+}
+
+#losescudos {
+  height: 190px;
+}
 
 #local,
 #visitante {
   background-repeat: no-repeat;
-  background-position: center center;  /* centra el escudo */
-  background-size: contain;            /* ajusta el escudo sin deformarlo */
+  background-position: center center;
+  background-size: contain;
 }
 
+#losequipos {
+  text-align: center;
+}
 
-  #losescudos {
-    height: 190px;
+#teamvisitante,
+#teamlocal {
+  font-weight: bold;
+  text-shadow: none;
+  text-align: center;
+}
+
+#daytodisplay,
+#horaecampo {
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  text-shadow: none;
+}
+
+#horaecampo {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* BOTONES DE ACCIÓN */
+.action-buttons {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.action-buttons .btn {
+  padding: 0.9rem 2rem;
+  font-size: 1rem;
+  font-weight: 700;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border: none;
+  position: relative;
+  overflow: hidden;
+}
+
+.action-buttons .btn::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.2);
+  transform: translate(-50%, -50%);
+  transition: width 0.6s, height 0.6s;
+}
+
+.action-buttons .btn:hover::before {
+  width: 300px;
+  height: 300px;
+}
+
+.action-buttons .btn-success {
+  background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+  box-shadow: 0 4px 15px rgba(16, 185, 129, 0.4);
+}
+
+.action-buttons .btn-success:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(16, 185, 129, 0.5);
+}
+
+.action-buttons .a {
+  padding: 0.9rem 2rem;
+  font-size: 1rem;
+  font-weight: 700;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  background: linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%);
+  color: white;
+  box-shadow: 0 4px 15px rgba(139, 92, 246, 0.4);
+  position: relative;
+  overflow: hidden;
+}
+
+.action-buttons .a::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.2);
+  transform: translate(-50%, -50%);
+  transition: width 0.6s, height 0.6s;
+}
+
+.action-buttons .a:hover::before {
+  width: 300px;
+  height: 300px;
+}
+
+.action-buttons .a:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(139, 92, 246, 0.5);
+}
+
+.action-buttons .btn:active,
+.action-buttons .a:active {
+  transform: translateY(-1px);
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .form-section {
+    padding: 1.5rem;
+    border-radius: 16px;
   }
 
-  #teamvisitante {
-    font-weight: bold;
-    text-shadow: none;
+  .form-row {
+    grid-template-columns: 1fr;
   }
-  #teamlocal {
-    text-shadow: none;
+
+  .action-buttons {
+    width: 100%;
   }
+
+  .action-buttons .btn,
+  .action-buttons .a {
+    flex: 1;
+    min-width: 120px;
+  }
+}
+
+@media (max-width: 480px) {
+  main.container-fluid {
+    padding: 1rem 0.5rem;
+  }
+
+  .form-section {
+    padding: 1.2rem;
+  }
+
+  .poster-form {
+    gap: 1rem;
+  }
+
+  .form-group label {
+    font-size: 0.8rem;
+  }
+
+  .form-control {
+    padding: 0.65rem 0.85rem;
+    font-size: 0.95rem;
+  }
+
+  .btn-generate {
+    padding: 0.85rem 1.8rem;
+    font-size: 1rem;
+  }
+
+  .action-buttons .btn,
+  .action-buttons .a {
+    padding: 0.75rem 1.5rem;
+    font-size: 0.95rem;
+  }
+
+  #myheader h1 {
+    font-size: 1.5rem;
+  }
+}
+/* Forzar columnas horizontales SIEMPRE en el cartel */
+.cartel .container {
+  max-width: 100% !important;
+  width: 100% !important;
+  padding-left: 12px !important;
+  padding-right: 12px !important;
+}
+
+.cartel .row {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  display: flex !important;
+  flex-direction: row !important;
+}
+
+.cartel .col-sm {
+  flex: 0 0 50% !important;
+  max-width: 50% !important;
+  width: 50% !important;
+  padding-left: 12px !important;
+  padding-right: 12px !important;
+}
+
+#losescudos .col-sm,
+#losequipos .col-sm {
+  flex: 0 0 50% !important;
+  max-width: 50% !important;
+  width: 50% !important;
+}
+
+/* Centrar el canvas generado por screenshot */
+.result {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.result canvas {
+  max-width: 100%;
+  height: auto;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+}
+/* Centrar el canvas generado por screenshot */
+.result {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 2rem;
+  gap: 1rem;
+}
+
+.result canvas {
+  max-width: 100%;
+  height: auto;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+}
+
+/* Ocultar el botón download inicialmente */
+.action-buttons .a {
+  display: none;
+}
+
+/* Mostrar cuando está dentro de .result con el estilo completo */
+.result .a {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.9rem 2rem;
+  font-size: 1rem;
+  font-weight: 700;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  background: linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%);
+  color: white;
+  box-shadow: 0 4px 15px rgba(139, 92, 246, 0.4);
+  position: relative;
+  overflow: hidden;
+}
+
+.result .a::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.2);
+  transform: translate(-50%, -50%);
+  transition: width 0.6s, height 0.6s;
+}
+
+.result .a:hover::before {
+  width: 300px;
+  height: 300px;
+}
+
+.result .a:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(139, 92, 246, 0.5);
+}
+
+.result .a:active {
+  transform: translateY(-1px);
+}
+
+/* Selector de fondos */
+.background-selector {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  margin-top: 0.5rem;
+}
+
+.background-option {
+  cursor: pointer;
+  border: 3px solid transparent;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.background-option img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.background-option:hover img {
+  transform: scale(1.05);
+}
+
+/* Nombre del fondo - oculto por defecto */
+.background-name {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.9), transparent);
+  color: white;
+  padding: 1.5rem 0.5rem 0.5rem;
+  text-align: center;
+  font-weight: 600;
+  font-size: 0.85rem;
+  opacity: 0;
+  transform: translateY(10px);
+  transition: all 0.3s ease;
+}
+
+.background-option:hover .background-name {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.background-option:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 16px rgba(59, 130, 246, 0.4);
+}
+
+.background-option.active {
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.2);
+}
+
+.background-option.active::after {
+  content: "✓";
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: #3b82f6;
+  color: white;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 16px;
+  z-index: 10;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Responsive para móviles */
+@media (max-width: 768px) {
+  .background-selector {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .background-selector {
+    gap: 0.75rem;
+  }
+  
+  .background-name {
+    font-size: 0.75rem;
+    padding: 1rem 0.4rem 0.4rem;
+  }
+}

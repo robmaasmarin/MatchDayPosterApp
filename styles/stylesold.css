@@ -1,0 +1,116 @@
+body {
+  background-image: url("../img/headerpics/6.png");
+  background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#myheader {
+    height: 100px;
+    width: 100%;
+    background-color: aquamarine;
+    text-align: center;
+    padding-top: 0%;
+    background-image: url("../img/headerpics/1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+  /* Create two equal columns that floats next to each other */
+
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+    text-align: center;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .cartel {
+    height: 750px;
+    width: 600px;
+    background-image: url("../img/3.png");
+    background-repeat: no-repeat;
+    font-family: 'Lato', sans-serif;
+  
+  font-style: normal;
+  color: white;
+  text-shadow: -1px 1px 0 black,
+  1px 1px 0 black,
+  1px -1px 0 black,
+  -1px -1px 0 black;
+  }
+
+ 
+
+  .category {
+    z-index: 10;
+    
+    font-weight: bold;
+    padding-top: 30px;
+    font-size: 70px;
+    
+    text-align: center;
+  }
+
+  #escudosymas {
+    padding-top: 50px;
+  }
+
+  #customCompetition {
+    display:none; margin-top:8px;
+    margin-left: 200px;
+  }
+
+
+
+  #daytodisplay {
+    
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    text-shadow: none;
+    
+    
+  }
+
+  #horaecampo {
+    
+    font-weight: bold;
+    font-size: 18px;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+    text-shadow: none;
+  }
+
+#local,
+#visitante {
+  background-repeat: no-repeat;
+  background-position: center center;  /* centra el escudo */
+  background-size: contain;            /* ajusta el escudo sin deformarlo */
+}
+
+
+  #losescudos {
+    height: 190px;
+  }
+
+  #teamvisitante {
+    font-weight: bold;
+    text-shadow: none;
+  }
+  #teamlocal {
+    text-shadow: none;
+  }

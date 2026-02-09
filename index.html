@@ -31,7 +31,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet" />
     
-    <link rel="stylesheet" href="./styles/styles2.css" />
+    <link rel="stylesheet" href="./styles/styles.css" />
     
     <script src="./scripts/firstscript.js"></script>
     <script src="./scripts/datescript.js"></script>
@@ -44,6 +44,7 @@
     <script src="./scripts/html2canvas.js"></script>
     <script src="./scripts/generarNuevo.js"></script>
     <script src="./scripts/capture.js"></script>
+    <script src="./scripts/fondoSelector.js"></script>
   </head>
   
   <body>
@@ -117,6 +118,27 @@
     style="display: none; margin-top: 0.5rem;"
   />
   </div>
+ <div class="form-group">
+  <label>Fondo del cartel:</label>
+  <div class="background-selector">
+    <div class="background-option active" data-bg="1.png" data-name="Marina">
+      <img src="./img/thumbnails/1mini.png" alt="Fondo Clásico">
+      <div class="background-name">Marina</div>
+    </div>
+    <div class="background-option" data-bg="2.png" data-name="Torre">
+      <img src="./img/thumbnails/2mini.png" alt="Fondo Moderno">
+      <div class="background-name">Torre</div>
+    </div>
+    <div class="background-option" data-bg="3.png" data-name="María Pita">
+      <img src="./img/thumbnails/3mini.png" alt="Fondo Deportivo">
+      <div class="background-name">María Pita</div>
+    </div>
+    <div class="background-option" data-bg="4.png" data-name="Millenium">
+      <img src="./img/thumbnails/4mini.png" alt="Fondo Elegante">
+      <div class="background-name">Millenium</div>
+    </div>
+  </div>
+</div>
 
   <button type="button" class="btn btn-primary btn-generate" onclick="actualizarCartel()">
     Generar Cartel
