@@ -20,6 +20,8 @@ clubdeportivociudadcf: "escudomini",
 clubdeportivociudadb: "escudomini",
 clubdeportivociudadc: "escudomini",
 
+cdciudadjardin: "cjardin",
+
 
   // ACADEMIAS / COLEGIOS
   cdcalasanz: "calasanz2",
@@ -39,15 +41,18 @@ clubdeportivociudadc: "escudomini",
 
   colegioobradoiro: "obradoiro",
 
+  
+
   clubpolideportivoesclavas: "esclavas2",
+  cpesclavas: "esclavas2",
   cpesclavasa: "esclavas2",
 
   // CLUBS HISTÓRICOS
   clubrosaliamera: "rmera",
   clubrosaliamerab: "rmera",
 
-  corunaarbococf: "ozatest",
-  corunaarbococf: "ozatest",
+  corunaarbococf: "silva",
+  corunaarbococf: "silva",
 
   eirissd: "eiris",
 
@@ -59,32 +64,45 @@ clubdeportivociudadc: "escudomini",
 
   maravillasd: "maravillas",
 
+  ozacesurascf: "ozacesuras",
+  cfozacesuras: "ozacesuras",
+
   sinquerersd: "sinquerer",
 
   sdsantamargarita: "smargarita",
+
+  sportingmeicende: "smeicende", 
+  sportingmeicendeb: "smeicende", 
 
   unionsportiva: "usport",
 
   vionocf: "viono",
 
-  xuventudelararacha: "xularacha",
-  xuventudelararacha: "xularacha",
+  xuventudelaracha: "xularacha",
+  xuventudelarachab: "xularacha",
 
   // SPORTING / ATLÉTICOS
   sportingcorunessd: "sportingcorunes",
   sportingcorunessdb: "sportingcorunes",
 
   sportingburgo: "spburgo",
+  sportingburgob: "spburgo",
 
   atleticoarteixo: "atarteixo",
-  athleticocastros: "castros",
-  athleticocastrosb: "castros",
+  atleticocastros: "castros",
+  atleticocastrosb: "castros",
 
   atlcorunamontaneroscfc: "montaneros",
+  atlcorunamontaneroscf: "montaneros",
   atlcorunamontaneroscfb: "montaneros",
 
   // CADETES / INFANTIL / OTROS
+  bergantinoscf: "bergan",
   bergantinoscfc: "bergan",
+
+  clubdefutbolbatalladorsd: "batallador",
+  clubdefutbolbatalladorsdb: "batallador",
+  cfbatalladorsd: "batallador",
 
   scdpastoriza: "pastoriza",
 
@@ -114,6 +132,11 @@ clubdeportivociudadc: "escudomini",
 
   relampagosd: "relampago",
 
+  unioncampestre: "campestre",
+  unioncampestreb: "campestre",
+
+  udpaiosacohierros: "paiosaco",
+
   uralespanolcf: "urale",
   uralespanolcfb: "urale",
   uralespanolcfc: "urale",
@@ -132,10 +155,10 @@ clubdeportivociudadc: "escudomini",
   spcorunessdc: "sportingcorunes",
 
   // MODESTOS / VETERANOS
-  cecebressd: "coiros",
+  cecebresd: "cecebre",
   clubdomar: "domar",
-  herculessd: "marte",
-  mercuriosdb: "marte",
+  herculessd: "herculessd",
+  mercuriosdb: "mercurio",
   olimpicocfb: "olimpico",
 
   sdculturalmaninos: "maninos",
