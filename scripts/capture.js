@@ -12,7 +12,11 @@
     
     let cvs = document.querySelector("canvas"); 
     downloadLink.href = cvs.toDataURL(); 
-    downloadLink.download = "html2canvas.png";
+    const ahora = new Date();
+    // nombre de archivo variable para evitar problemas al descargar en smartphones
+    const nombreArchivo = `cartel_${ahora.getFullYear()}-${ahora.getMonth()+1}-${ahora.getDate()}_${ahora.getHours()}-${ahora.getMinutes()}-${ahora.getSeconds()}.png`;
+
+    downloadLink.download = nombreArchivo;
     
     // Mover el botón de download debajo del canvas
     resultDiv.append(downloadLink);
