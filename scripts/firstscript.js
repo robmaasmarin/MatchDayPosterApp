@@ -252,18 +252,25 @@ var subjectObject = {
 },
 "ALEVÍN B": {
     "C.D. CIUDAD B": [
+      "ATL. CORUÑA MONTAÑEROS C.F. C",
         "C.D. CALASANZ C",
+        "C.D. CALASANZ E",
         "COMPAÑÍA DE MARÍA C",
         "LICEO DE MONELOS S.D.",
+        "S.D. SANTA MARGARITA B",
         "SANTA MARIA DEL MAR B",
+        "SANTA MARIA DEL MAR C",
         "SPORTING CORUÑES S.D. B",
         "VIOÑO C.F."
     ],
-
+    "ATL. CORUÑA MONTAÑEROS C.F. C": ["C.D. CIUDAD B"],
     "C.D. CALASANZ C": ["C.D. CIUDAD B"],
+    "C.D. CALASANZ E": ["C.D. CIUDAD B"],
     "COMPAÑÍA DE MARÍA C": ["C.D. CIUDAD B"],
     "LICEO DE MONELOS S.D.": ["C.D. CIUDAD B"],
+    "S.D. SANTA MARGARITA B": ["C.D. CIUDAD B"],
     "SANTA MARIA DEL MAR B": ["C.D. CIUDAD B"],
+    "SANTA MARIA DEL MAR C": ["C.D. CIUDAD B"],
     "SPORTING CORUÑES S.D. B": ["C.D. CIUDAD B"],
     "VIOÑO C.F.": ["C.D. CIUDAD B"]
 }
@@ -274,19 +281,23 @@ var subjectObject = {
  "BENXAMÍN A": {
     "C.D. CIUDAD": [
         "ATLÉTICO CASTROS B",
+        "ATL. CORUÑA MONTAÑEROS C.F. D",
         "C.D. CIUDAD JARDIN",
         "COMPAÑÍA DE MARÍA B",
         "SANTA MARIA DEL MAR C",
         "SPORTING CORUÑES S.D. B",
-        "URAL ESPAÑOL C.F. C"
+        "URAL ESPAÑOL C.F. C",
+        "VICTORIA C.F. C"
     ],
 
     "ATLÉTICO CASTROS B": ["C.D. CIUDAD"],
+    "ATL. CORUÑA MONTAÑEROS C.F. D": ["C.D. CIUDAD B"],
     "C.D. CIUDAD JARDIN": ["C.D. CIUDAD"],
     "COMPAÑÍA DE MARÍA B": ["C.D. CIUDAD"],
     "SANTA MARIA DEL MAR C": ["C.D. CIUDAD"],
     "SPORTING CORUÑES S.D. B": ["C.D. CIUDAD"],
-    "URAL ESPAÑOL C.F. C": ["C.D. CIUDAD"]
+    "URAL ESPAÑOL C.F. C": ["C.D. CIUDAD"],
+    "VICTORIA C.F. C": ["C.D. CIUDAD"]
 }
 ,
 

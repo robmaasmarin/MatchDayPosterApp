@@ -28,6 +28,7 @@ cdciudadjardin: "cjardin",
   cdcalasanzb: "calasanz2",
   cdcalasanzc: "calasanz2",
   cdcalasanzd: "calasanz2",
+  cdcalasanze: "calasanz2",
 
   cdeportivocristal: "cristal",
 
@@ -70,6 +71,7 @@ cdciudadjardin: "cjardin",
   sinquerersd: "sinquerer",
 
   sdsantamargarita: "smargarita",
+  sdsantamargaritab: "smargarita",
 
   sportingmeicende: "smeicende", 
   sportingmeicendeb: "smeicende", 
@@ -95,6 +97,7 @@ cdciudadjardin: "cjardin",
   atlcorunamontaneroscfc: "montaneros",
   atlcorunamontaneroscf: "montaneros",
   atlcorunamontaneroscfb: "montaneros",
+  atlcorunamontaneroscfd: "montaneros",
 
   // CADETES / INFANTIL / OTROS
   bergantinoscf: "bergan",
@@ -145,6 +148,7 @@ cdciudadjardin: "cjardin",
   victoriacf: "victoria",
   victoriacfb: "victoria",
   victoriacfd: "victoria",
+  victoriacfc: "victoria",
 
   // BENJAMÍN / PREBENJAMÍN
   santamariadelmar: "santa",
