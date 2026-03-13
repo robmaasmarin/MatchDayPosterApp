@@ -303,18 +303,25 @@ var subjectObject = {
 
  "BENXAMÍN B": {
     "C.D. CIUDAD B": [
+        "C.D. CALASANZ D",
         "CLUB ROSALÍA MERA",
         "ORILLAMAR S.D. B",
+        "OZA JUVENIL S.D. C",
         "S.D. SANTA MARGARITA",
         "SANTA MARIA DEL MAR D",
+        "SILVA S.D. C",
+        "SP CORUÑÉS S.D.C. B",
         "SP CORUÑÉS S.D.C. C",
         "URAL ESPAÑOL C.F. D"
     ],
-
+    "C.D. CALASANZ D": ["C.D. CIUDAD B"],
     "CLUB ROSALÍA MERA": ["C.D. CIUDAD B"],
     "ORILLAMAR S.D. B": ["C.D. CIUDAD B"],
+    "OZA JUVENIL S.D. C": ["C.D. CIUDAD B"],
     "S.D. SANTA MARGARITA": ["C.D. CIUDAD B"],
     "SANTA MARIA DEL MAR D": ["C.D. CIUDAD B"],
+    "SILVA S.D. C": ["C.D. CIUDAD B"],
+    "SP CORUÑÉS S.D.C. B": ["C.D. CIUDAD B"],
     "SP CORUÑÉS S.D.C. C": ["C.D. CIUDAD B"],
     "URAL ESPAÑOL C.F. D": ["C.D. CIUDAD B"]
 }
