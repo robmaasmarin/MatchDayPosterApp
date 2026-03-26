@@ -47,22 +47,22 @@ function dayOfTheWeek(params) {
 
 // calcular día de la semana en base a la fecha escogida
     if (day1 == 0) {
-        document.getElementById("daytodisplay").innerHTML = "DOMINGO" + "  ,         " + diaEnNumero + " DE " + month
+        document.getElementById("daytodisplay").innerHTML = "DOMINGO" + ",         " + diaEnNumero + " DE " + month
     }
     else if (day1 == 1) {
-        document.getElementById("daytodisplay").innerHTML = "LUNS" + "  ,         " + diaEnNumero + " DE " + month
+        document.getElementById("daytodisplay").innerHTML = "LUNS" + ",         " + diaEnNumero + " DE " + month
     }
     else if (day1 == 2) {
-        document.getElementById("daytodisplay").innerHTML = "MARTES" + "  ,         " + diaEnNumero + " DE " + month
+        document.getElementById("daytodisplay").innerHTML = "MARTES" + ",         " + diaEnNumero + " DE " + month
     }
     else if (day1 == 3) { 
-        document.getElementById("daytodisplay").innerHTML = "MÉRCORES"  + "  ,         " + diaEnNumero + " DE " + month
+        document.getElementById("daytodisplay").innerHTML = "MÉRCORES"  + ",         " + diaEnNumero + " DE " + month
     }
     else if (day1 == 4) {
-        document.getElementById("daytodisplay").innerHTML = "XOVES" + "  ,         " + diaEnNumero + " DE " + month
+        document.getElementById("daytodisplay").innerHTML = "XOVES" + ",         " + diaEnNumero + " DE " + month
     }
     else if (day1 == 5) {
-        document.getElementById("daytodisplay").innerHTML = "VENRES" + "  ,         " + diaEnNumero + " DE " + month
+        document.getElementById("daytodisplay").innerHTML = "VENRES" + ",         " + diaEnNumero + " DE " + month
     }
     else if (day1 == 6) {
         document.getElementById("daytodisplay").innerHTML = "SÁBADO" + ", " + diaEnNumero + " DE " + month
