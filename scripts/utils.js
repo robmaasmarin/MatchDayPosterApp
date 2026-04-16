@@ -91,6 +91,8 @@ cdciudadjardin: "cjardin",
   sportingburgob: "spburgo",
 
   atleticoarteixo: "atarteixo",
+  atleticoarteixob: "atarteixo",
+  atleticoarteixoc: "atarteixo",
   atleticocastros: "castros",
   atleticocastrosb: "castros",
 
@@ -145,6 +147,8 @@ cdciudadjardin: "cjardin",
   uralespanolcfb: "urale",
   uralespanolcfc: "urale",
   uralespanolcfd: "urale",
+
+  udjalmeiras: "almeiras",
 
   victoriacf: "victoria",
   victoriacfb: "victoria",

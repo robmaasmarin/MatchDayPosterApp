@@ -48,7 +48,13 @@ var subjectObject = {
       "RELÁMPAGO S. D.",
       "SILVA S.D. B",
       "SPORTING CORUÑES S.D. B",
-      "TORRE S.D."
+      "TORRE S.D.",
+      "S.C.D. PASTORIZA", 
+      "ATLETICO ARTEIXO C",
+      "SPORTING CAMBRE B",
+      "U.D.J. ALMEIRAS"
+
+
     ],
     ///////////////////////////////
     "C.D. CIUDAD JARDIN": ["C.D. CIUDAD"],
@@ -69,7 +75,11 @@ var subjectObject = {
     ///////////////////////////////
     "SPORTING CORUÑES S.D. B": ["C.D. CIUDAD"],
     ///////////////////////////////
-    "TORRE S.D.": ["C.D. CIUDAD"]
+    "S.C.D. PASTORIZA": ["C.D. CIUDAD"],
+    "ATLETICO ARTEIXO C": ["C.D. CIUDAD"],
+    "SPORTING CAMBRE B": ["C.D. CIUDAD"],
+    "U.D.J. ALMEIRAS": ["C.D. CIUDAD"],
+
   },
 
 
