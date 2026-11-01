@@ -4,4 +4,6 @@ function actualizarCartel() {
   hourandpitch();
   mostrarEscudoLocal();
   mostrarEscudoVisitante();
+  alignRows("#daytodisplay .fecha-wrapper", "#horaecampo .hora-wrapper");
+
 }

@@ -43,32 +43,34 @@ function dayOfTheWeek(params) {
         month = "DECEMBRO"
     }
 
+    // calcular día de la semana en base a la fecha escogida
+    var diaTexto = "";
 
-
-// calcular día de la semana en base a la fecha escogida
     if (day1 == 0) {
-        document.getElementById("daytodisplay").innerHTML = "DOMINGO" + ",         " + diaEnNumero + " DE " + month
+        diaTexto = "DOMINGO" + ",         " + diaEnNumero + " DE " + month
     }
     else if (day1 == 1) {
-        document.getElementById("daytodisplay").innerHTML = "LUNS" + ",         " + diaEnNumero + " DE " + month
+        diaTexto = "LUNS" + ",         " + diaEnNumero + " DE " + month
     }
     else if (day1 == 2) {
-        document.getElementById("daytodisplay").innerHTML = "MARTES" + ",         " + diaEnNumero + " DE " + month
+        diaTexto = "MARTES" + ",         " + diaEnNumero + " DE " + month
     }
-    else if (day1 == 3) { 
-        document.getElementById("daytodisplay").innerHTML = "MÉRCORES"  + ",         " + diaEnNumero + " DE " + month
+    else if (day1 == 3) {
+        diaTexto = "MÉRCORES" + ",         " + diaEnNumero + " DE " + month
     }
     else if (day1 == 4) {
-        document.getElementById("daytodisplay").innerHTML = "XOVES" + ",         " + diaEnNumero + " DE " + month
+        diaTexto = "XOVES" + ",         " + diaEnNumero + " DE " + month
     }
     else if (day1 == 5) {
-        document.getElementById("daytodisplay").innerHTML = "VENRES" + ",         " + diaEnNumero + " DE " + month
+        diaTexto = "VENRES" + ",         " + diaEnNumero + " DE " + month
     }
     else if (day1 == 6) {
-        document.getElementById("daytodisplay").innerHTML = "SÁBADO" + ", " + diaEnNumero + " DE " + month
+        diaTexto = "SÁBADO" + ", " + diaEnNumero + " DE " + month
     }
-    ;
 
-    
-    
+    document.getElementById("daytodisplay").innerHTML =
+        `<div class="fecha-wrapper">
+            <img src="../img/extras/calendar-days-regular-full.png" alt="" class="icono-fecha">
+            <span class="fecha-texto">${diaTexto}</span>
+         </div>`;
 }

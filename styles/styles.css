@@ -215,70 +215,314 @@ main.container-fluid {
 }
 
 /* CARTEL - SIEMPRE 600x750px */
+/* =========================================================
+   CARTEL - ESTILO DEPORTIVO
+   ========================================================= */
+
 .cartel {
   width: 600px;
   height: 750px;
   min-width: 600px;
   min-height: 750px;
+
   background-image: url("../img/1.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  font-family: 'Lato', sans-serif;
-  color: white;
-  text-shadow: -1px 1px 0 black, 1px 1px 0 black, 1px -1px 0 black, -1px -1px 0 black;
+
+  position: relative;
   overflow: hidden;
+
+  font-family: 'Barlow Condensed', sans-serif;
+  color: white;
+  text-shadow: none;
+
   flex-shrink: 0;
 }
 
+
+/* =========================================================
+   CATEGORÍA
+   Ej: XUVENÍS
+   ========================================================= */
+
 .category {
-  font-weight: bold;
-  padding-top: 30px;
-  font-size: 70px;
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+  margin: 0 auto;
+  margin-top: 15px;
+  z-index: 5;
+}
+
+.category img {
+  display: block;
+  width: 600px;
+  height: 149px;
+  object-fit: contain;
+  object-position: center;
+}
+
+/* Cuando NO hay imagen (fallback a texto), mantenemos el estilo antiguo */
+.category:not(:has(img)) {
+  padding-top: 20px;
+  font-family: 'Anton', sans-serif;
+  font-size: 92px;
+  line-height: 0.9;
   text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  transform: skewX(-7deg) scaleY(1.08);
+  text-shadow: 4px 4px 0 #b40000, 7px 7px 0 #790000, 10px 11px 14px rgba(0,0,0,.45);
 }
 
 .nombreliga {
-  text-align: center;
-  font-weight: bold;
+  top: -55px !important; /* ajusta este valor a ojo hasta que quede pegado al trazo, como en tu referencia */
+  position: relative;
+  z-index: 6;
+  text-align: right ;
+  margin-right: 15px;
+  margin-top: 0;
 }
+
+.nombreliga img {
+  display: inline-block;
+  height: 34px;           /* ajusta según el tamaño real del badge */
+  width: auto;
+  
+  
+}
+
+/* fallback texto si no hay imagen de liga */
+.nombreliga:not(:has(img)) {
+  padding: 0 25px;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 29px;
+  font-weight: 800;
+  font-style: italic;
+  color: #ffffff;
+}
+
+/* =========================================================
+   ZONA DE ESCUDOS
+   ========================================================= */
 
 #escudosymas {
-  padding-top: 50px;
+  width: 100% !important;
+  max-width: none !important;
+
+  padding-top: 12px !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+
+  margin: 0 !important;
+  margin-top: -80px !important;
+  
 }
 
+
+/* fila de escudos */
+
 #losescudos {
-  height: 190px;
+  width: 100%;
+  height: 175px;
+
+  margin: 0 !important;
+
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center;
+  justify-content: center;
 }
+
+
+/* cada mitad */
+
+#losescudos .col-sm {
+  width: 50% !important;
+  max-width: 50% !important;
+  flex: 0 0 50% !important;
+
+  height: 175px;
+
+  padding: 0 !important;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* ESCUDOS */
 
 #local,
 #visitante {
+  width: 180px;
+  height: 165px;
+
   background-repeat: no-repeat;
   background-position: center center;
   background-size: contain;
+
+  flex-shrink: 0;
 }
+
+
+/* =========================================================
+   NOMBRES DE LOS EQUIPOS
+   ========================================================= */
 
 #losequipos {
-  text-align: center;
+  width: 100%;
+
+  margin: 10px 0 0 0 !important;
+
+  display: flex !important;
+  flex-direction: row !important;
 }
 
-#teamvisitante,
-#teamlocal {
-  font-weight: bold;
-  text-shadow: none;
-  text-align: center;
+#losequipos .col-sm {
+  width: 50% !important;
+  max-width: 50% !important;
+  flex: 0 0 50% !important;
+
+  padding: 0 12px !important;
 }
 
-#daytodisplay,
+
+#teamlocal,
+#teamvisitante {
+  font-family: 'Barlow Condensed', sans-serif;
+
+  font-size: 20px;
+  font-weight: 550;
+  font-style: italic;
+
+  line-height: 0.95;
+
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #ffffff;
+
+  text-shadow:
+    2px 2px 0 rgba(0, 0, 0, 0.7);
+}
+
+
+/* =========================================================
+   FECHA
+   ========================================================= */
+
+#daytodisplay {
+  width: 100%;
+  text-shadow:
+    1px 1px 0 #8d0000,
+    2px 2px 0 rgba(0, 0, 0, 0.45);
+     position: relative;
+    z-index: 1;
+  
+
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 27px;
+  font-weight: 700;
+  font-style: italic;
+  line-height: 1;
+
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #ffffff;
+  margin-top: -18px;
+
+  
+}
+#daytodisplay .fecha-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.icono-fecha {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+#horaecampo .hora,
+#horaecampo .campo,
+#daytodisplay .fecha-texto {
+  white-space: nowrap;
+}
+
+
+/* =========================================================
+   HORA + CAMPO
+   ========================================================= */
+
 #horaecampo {
-  font-weight: bold;
-  font-size: 18px;
+  width: 100%;
+
+  margin-top: 8px;
+
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 56px;
+  font-weight: 800;
+  font-style: italic;
+
+  line-height: 0.95;
+
   text-align: center;
-  text-shadow: none;
+  text-transform: uppercase;
+
+  color: #eab70b;
+
+  text-shadow:
+    2px 2px 0 #8d0000,
+    2px 2px 0 rgba(0, 0, 0, 0.45);
+     position: relative;
+    z-index: 1;
 }
 
-#horaecampo {
-  font-family: Arial, Helvetica, sans-serif;
+
+#daytodisplay .fecha-wrapper,
+#horaecampo .hora-wrapper {
+  margin: 0 auto;
+  display: flex;
+  align-items: baseline;
+  justify-content: flex-start;
+  gap: 10px;
+  flex-wrap: nowrap;         /* evita que salte de línea y descuadre el ancho */
+}
+
+#horaecampo .hora {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 30px;          /* antes 68px, ahora más pequeño */
+  font-weight: 800;
+  font-style: italic;
+  line-height: 0.95;
+  color: #ffd400;
+  text-shadow:
+    2px 2px 0 #8d0000,
+    2px 2px 0 rgba(0, 0, 0, 0.4);
+}
+
+#horaecampo .campo {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  font-style: italic;
+  color: #ffffff;
+  text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.6);
+}
+
+.icono-hora {
+   width: 30px;
+  height: 30px;
+  object-fit: contain;
+  flex-shrink: 0;
 }
 
 /* BOTONES DE ACCIÓN */

@@ -3,482 +3,401 @@ var subjectObject = {
     "C. DEPORTIVO CRISTAL": ["C.D. CIUDAD"],
     "C.D. CIUDAD": [
       "C. DEPORTIVO CRISTAL",
-      "C.D. CIUDAD JARDIN",
-      "COMPAÑÍA DE MARÍA",
+      'C.D. CIUDAD JARDÍN "B"',
+      "CLUB COMPAÑÍA DE MARÍA",
       "CLUB ROSALÍA MERA",
-      "CORUÑA ARBOCO C. F.",
+      "CORUÑA ARBOCO C.F.",
       "EIRÍS S.D.",
       "GALICIA GAITEIRA",
       "MARAVILLAS S.D.",
       "SIN QUERER S.D.",
       "S.D. SANTA MARGARITA",
-      'SPORTING BURGO "B"',
       "SPORTING CORUÑES S.D. B",
       "UNION SPORTIVA",
       "VIOÑO C.F.",
       "XUVENTUDE LARACHA",
     ],
-    "C.D. CIUDAD JARDIN": ["C.D. CIUDAD"],
-    "COMPAÑÍA DE MARÍA": ["C.D. CIUDAD"],
+    'C.D. CIUDAD JARDÍN "B"': ["C.D. CIUDAD"],
+    "CLUB COMPAÑÍA DE MARÍA": ["C.D. CIUDAD"],
     "CLUB ROSALÍA MERA": ["C.D. CIUDAD"],
-    "CORUÑA ARBOCO C. F.": ["C.D. CIUDAD"],
+    "CORUÑA ARBOCO C.F.": ["C.D. CIUDAD"],
     "EIRÍS S.D.": ["C.D. CIUDAD"],
     "GALICIA GAITEIRA": ["C.D. CIUDAD"],
     "MARAVILLAS S.D.": ["C.D. CIUDAD"],
     "SIN QUERER S.D.": ["C.D. CIUDAD"],
     "S.D. SANTA MARGARITA": ["C.D. CIUDAD"],
-    'SPORTING BURGO "B"': ["C.D. CIUDAD"],
     "SPORTING CORUÑES S.D. B": ["C.D. CIUDAD"],
     "UNION SPORTIVA": ["C.D. CIUDAD"],
     "VIOÑO C.F.": ["C.D. CIUDAD"],
     "XUVENTUDE LARACHA": ["C.D. CIUDAD"],
   },
-
-  XUVENÍS: {
-    "ATLETICO CASTROS": ["C.D. CIUDAD"],
-    ///////////////////////////////
+  "XUVENIL A": {
     "C.D. CIUDAD": [
-      "ATLETICO CASTROS",
-      "C.D. CIUDAD JARDIN",
-      "CLUB ROSALÍA MERA",
-      "EIRÍS S.D.",
-      "LICEO DE MONELOS S.D. B",
-      "MARAVILLAS S.D.",
-      "ORILLAMAR S.D. B",
-      "RELÁMPAGO S. D.",
-      "SILVA S.D. B",
-      "SPORTING CORUÑES S.D. B",
-      "TORRE S.D.",
-      "S.C.D. PASTORIZA", 
-      "ATLETICO ARTEIXO C",
-      "SPORTING CAMBRE B",
-      "U.D.J. ALMEIRAS"
-
-
-    ],
-    ///////////////////////////////
-    "C.D. CIUDAD JARDIN": ["C.D. CIUDAD"],
-    ///////////////////////////////
-    "CLUB ROSALÍA MERA": ["C.D. CIUDAD"],
-    ///////////////////////////////
-    "EIRÍS S.D.": ["C.D. CIUDAD"],
-    ///////////////////////////////
-    "LICEO DE MONELOS S.D. B": ["C.D. CIUDAD"],
-    ///////////////////////////////
-    "MARAVILLAS S.D.": ["C.D. CIUDAD"],
-    ///////////////////////////////
-    "ORILLAMAR S.D. B": ["C.D. CIUDAD"],
-    ///////////////////////////////
-    "RELÁMPAGO S. D.": ["C.D. CIUDAD"],
-    ///////////////////////////////
-    "SILVA S.D. B": ["C.D. CIUDAD"],
-    ///////////////////////////////
-    "SPORTING CORUÑES S.D. B": ["C.D. CIUDAD"],
-    ///////////////////////////////
-    "S.C.D. PASTORIZA": ["C.D. CIUDAD"],
-    "ATLETICO ARTEIXO C": ["C.D. CIUDAD"],
-    "SPORTING CAMBRE B": ["C.D. CIUDAD"],
-    "U.D.J. ALMEIRAS": ["C.D. CIUDAD"],
-
-  },
-
-
- "CADETE A": {
-  "IMPERATOR O.A.R. B": ["C.D. CIUDAD"],
-  "U.D. PAIOSACO- HIERROS": ["C.D. CIUDAD"],
-  "S.C.D. PASTORIZA": ["C.D. CIUDAD"],
-  "C.D. CIUDAD": [
-    "IMPERATOR O.A.R. B",
-    "U.D. PAIOSACO- HIERROS",
-    "S.C.D. PASTORIZA",
-    "BERGANTIÑOS C.F. C",
-    "SPORTING CAMBRE B",
-    "SADA C.F. B",
-    "PORTAZGO S.D.",
-    "ATLETICO CASTROS",
-    "UNIÓN CAMPESTRE",
-    "A.D. CRISTO REY",
-    "SILVA S.D.",
-    "OZA JUVENIL S.D. B",
-    "C.F. DEPORTIVO ORZÁN",
-    "ATL. CORUÑA MONTAÑEROS C.F. C",
-    "A.D. CULLEREDO"
-  ],
-  "BERGANTIÑOS C.F. C": ["C.D. CIUDAD"],
-  "SPORTING CAMBRE B": ["C.D. CIUDAD"],
-  "SADA C.F. B": ["C.D. CIUDAD"],
-  "PORTAZGO S.D.": ["C.D. CIUDAD"],
-  "ATLETICO CASTROS": ["C.D. CIUDAD"],
-  "UNIÓN CAMPESTRE": ["C.D. CIUDAD"],
-  "A.D. CRISTO REY": ["C.D. CIUDAD"],
-  "SILVA S.D.": ["C.D. CIUDAD"],
-  "OZA JUVENIL S.D. B": ["C.D. CIUDAD"],
-  "C.F. DEPORTIVO ORZÁN": ["C.D. CIUDAD"],
-  "ATL. CORUÑA MONTAÑEROS C.F. C": ["C.D. CIUDAD"],
-  "A.D. CULLEREDO": ["C.D. CIUDAD"]
-},
-
-
-  //////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-  "CADETE B": {
-    "ATLÉTICO CASTROS B": ["C.D. CIUDAD B"],
-    ///////////////////////////////
-    "C.D. CALASANZ C": ["C.D. CIUDAD B"],
-    ///////////////////////////////
-    "C.D. CIUDAD B": [
-      "ATLÉTICO CASTROS B",
-      "C.D. CALASANZ C",
-      "COMPAÑÍA DE MARÍA B",
-      "CLUB ROSALÍA MERA B",
-      "EIRÍS S.D.",
-      "IMPERATOR OAR C",
-      "LICEO DE MONELOS S.D.",
-      "ORILLAMAR S.D. B",
-      "OZA JUVENIL S.D. C",
-      "RELÁMPAGO S. D.",
-      "S.D. SANTA MARGARITA",
-      "SILVA S.D. B",
-      "TORRE S.D."
-    ],
-    ///////////////////////////////
-    "COMPAÑÍA DE MARÍA B": ["C.D. CIUDAD B"],
-    ///////////////////////////////
-    "CLUB ROSALÍA MERA B": ["C.D. CIUDAD B"],
-    ///////////////////////////////
-    "EIRÍS S.D.": ["C.D. CIUDAD B"],
-    ///////////////////////////////
-    "IMPERATOR OAR C": ["C.D. CIUDAD B"],
-    ///////////////////////////////
-    "LICEO DE MONELOS S.D.": ["C.D. CIUDAD B"],
-    ///////////////////////////////
-    "ORILLAMAR S.D. B": ["C.D. CIUDAD B"],
-    ///////////////////////////////
-    "OZA JUVENIL S.D. C": ["C.D. CIUDAD B"],
-    ///////////////////////////////
-    "RELÁMPAGO S. D.": ["C.D. CIUDAD B"],
-    ///////////////////////////////
-    "S.D. SANTA MARGARITA": ["C.D. CIUDAD B"],
-    ///////////////////////////////
-    "SILVA S.D. B": ["C.D. CIUDAD B"],
-    ///////////////////////////////
-    "TORRE S.D.": ["C.D. CIUDAD B"]
-  },
-
-
-  "INFANTIL A": {
-    "C.D. CIUDAD": [
-        "CLUB DE FÚTBOL BATALLADOR S.D.",
-        "CLUB ROSALÍA MERA",
-        "COLEGIO LICEO",
-        "COLEGIO OBRADOIRO",
-        "CORUÑA ARBOCO C. F.",
-        "IMPERATOR O.A.R. C",
-        "ORILLAMAR S.D. B",
-        "OZA JUVENIL S.D. C",
-        "RELÁMPAGO S. D. B",
-        "SP CORUÑÉS S.D.C. C",
-        "URAL ESPAÑOL C.F. C",
-        "VIOÑO C.F."
-    ],
-
-    "CLUB DE FÚTBOL BATALLADOR S.D.": ["C.D. CIUDAD"],
-    "CLUB ROSALÍA MERA": ["C.D. CIUDAD"],
-    "COLEGIO LICEO": ["C.D. CIUDAD"],
-    "COLEGIO OBRADOIRO": ["C.D. CIUDAD"],
-    "CORUÑA ARBOCO C. F.": ["C.D. CIUDAD"],
-    "IMPERATOR O.A.R. C": ["C.D. CIUDAD"],
-    "ORILLAMAR S.D. B": ["C.D. CIUDAD"],
-    "OZA JUVENIL S.D. C": ["C.D. CIUDAD"],
-    "RELÁMPAGO S. D. B": ["C.D. CIUDAD"],
-    "SP CORUÑÉS S.D.C. C": ["C.D. CIUDAD"],
-    "URAL ESPAÑOL C.F. C": ["C.D. CIUDAD"],
-    "VIOÑO C.F.": ["C.D. CIUDAD"]
-}
-,
-  "INFANTIL B": {
-    "C. D. CALASANZ D": ["C.D. CIUDAD B"],
-    "C. F. BATALLADOR S.D. B": ["C.D. CIUDAD B"],
-    "C. DEPORTIVO CRISTAL": ["C.D. CIUDAD B"],
-    "C.D. CIUDAD B": [
-        "C. D. CALASANZ D",
-        "C. F. BATALLADOR S.D. B",
-        "C. DEPORTIVO CRISTAL",
-        "EIRÍS S.D.",
-        "IMPERATOR O.A.R. B",
-        "ORILLAMAR S.D. C",
-        "OZA JUVENIL S.D. B",
-        "RELÁMPAGO S. D.",
-        "S.D. SANTA MARGARITA",
-        "SILVA S.D. B",
-        "SPORTING CORUÑES S.D. B",
-        "VICTORIA C.F. D"
-    ],
-    "EIRÍS S.D.": ["C.D. CIUDAD B"],
-    "IMPERATOR O.A.R. B": ["C.D. CIUDAD B"],
-    "ORILLAMAR S.D. C": ["C.D. CIUDAD B"],
-    "OZA JUVENIL S.D. B": ["C.D. CIUDAD B"],
-    "RELÁMPAGO S. D.": ["C.D. CIUDAD B"],
-    "S.D. SANTA MARGARITA": ["C.D. CIUDAD B"],
-    "SILVA S.D. B": ["C.D. CIUDAD B"],
-    "SPORTING CORUÑES S.D. B": ["C.D. CIUDAD B"],
-    "VICTORIA C.F. D": ["C.D. CIUDAD B"]
-},
-
-
-"ALEVÍN A": {
-  "ATL. CORUÑA MONTAÑEROS C.F. B": ["C.D. CIUDAD"],
-  "ATLÉTICO CASTROS": ["C.D. CIUDAD"],
-  "C.D. CALASANZ B": ["C.D. CIUDAD"],
-  "CLUB DE FÚTBOL BATALLADOR S.D.": ["C.D. CIUDAD"],
-  "C.D. CIUDAD": [
-    "ATL. CORUÑA MONTAÑEROS C.F. B",
-    "ATLÉTICO CASTROS",
-    "C.D. CALASANZ B",
-    "CLUB DE FÚTBOL BATALLADOR S.D.",
-    "C.P. ESCLAVAS A",
-    "COMPAÑÍA DE MARÍA",
-    "IMPERATOR O.A.R.",
-    "ORILLAMAR S.D.",
-    "OZA JUVENIL S.D.",
-    "RELÁMPAGO S. D.",
-    "SANTA MARIA DEL MAR",
-    "SILVA S.D.",
-    "SPORTING CORUÑES S.D.",
-    "URAL ESPAÑOL C.F. B",
-    "VICTORIA C.F. B"
-  ],
-  "C.P. ESCLAVAS A": ["C.D. CIUDAD"],
-  "COMPAÑÍA DE MARÍA": ["C.D. CIUDAD"],
-  "IMPERATOR O.A.R.": ["C.D. CIUDAD"],
-  "ORILLAMAR S.D.": ["C.D. CIUDAD"],
-  "OZA JUVENIL S.D.": ["C.D. CIUDAD"],
-  "RELÁMPAGO S. D.": ["C.D. CIUDAD"],
-  "SANTA MARIA DEL MAR": ["C.D. CIUDAD"],
-  "SILVA S.D.": ["C.D. CIUDAD"],
-  "SPORTING CORUÑES S.D.": ["C.D. CIUDAD"],
-  "URAL ESPAÑOL C.F. B": ["C.D. CIUDAD"],
-  "VICTORIA C.F. B": ["C.D. CIUDAD"]
-},
-"ALEVÍN B": {
-    "C.D. CIUDAD B": [
-      "ATL. CORUÑA MONTAÑEROS C.F. C",
-        "C.D. CALASANZ C",
-        "C.D. CALASANZ E",
-        "COMPAÑÍA DE MARÍA C",
-        "LICEO DE MONELOS S.D.",
-        "S.D. SANTA MARGARITA B",
-        "SANTA MARIA DEL MAR B",
-        "SANTA MARIA DEL MAR C",
-        "SPORTING CORUÑES S.D. B",
-        "VIOÑO C.F."
-    ],
-    "ATL. CORUÑA MONTAÑEROS C.F. C": ["C.D. CIUDAD B"],
-    "C.D. CALASANZ C": ["C.D. CIUDAD B"],
-    "C.D. CALASANZ E": ["C.D. CIUDAD B"],
-    "COMPAÑÍA DE MARÍA C": ["C.D. CIUDAD B"],
-    "LICEO DE MONELOS S.D.": ["C.D. CIUDAD B"],
-    "S.D. SANTA MARGARITA B": ["C.D. CIUDAD B"],
-    "SANTA MARIA DEL MAR B": ["C.D. CIUDAD B"],
-    "SANTA MARIA DEL MAR C": ["C.D. CIUDAD B"],
-    "SPORTING CORUÑES S.D. B": ["C.D. CIUDAD B"],
-    "VIOÑO C.F.": ["C.D. CIUDAD B"]
-}
-,
-
-  
-
- "BENXAMÍN A": {
-    "C.D. CIUDAD": [
-        "ATLÉTICO CASTROS B",
-        "ATL. CORUÑA MONTAÑEROS C.F. D",
-        "C.D. CIUDAD JARDIN",
-        "COMPAÑÍA DE MARÍA B",
-        "SANTA MARIA DEL MAR C",
-        "SPORTING CORUÑES S.D. B",
-        "URAL ESPAÑOL C.F. C",
-        "VICTORIA C.F. C"
-    ],
-
-    "ATLÉTICO CASTROS B": ["C.D. CIUDAD"],
-    "ATL. CORUÑA MONTAÑEROS C.F. D": ["C.D. CIUDAD B"],
-    "C.D. CIUDAD JARDIN": ["C.D. CIUDAD"],
-    "COMPAÑÍA DE MARÍA B": ["C.D. CIUDAD"],
-    "SANTA MARIA DEL MAR C": ["C.D. CIUDAD"],
-    "SPORTING CORUÑES S.D. B": ["C.D. CIUDAD"],
-    "URAL ESPAÑOL C.F. C": ["C.D. CIUDAD"],
-    "VICTORIA C.F. C": ["C.D. CIUDAD"]
-}
-,
-
- "BENXAMÍN B": {
-    "C.D. CIUDAD B": [
-        "C.D. CALASANZ D",
-        "CLUB ROSALÍA MERA",
-        "ORILLAMAR S.D. B",
-        "OZA JUVENIL S.D. C",
-        "S.D. SANTA MARGARITA",
-        "SANTA MARIA DEL MAR D",
-        "SILVA S.D. C",
-        "SP CORUÑÉS S.D.C. B",
-        "SP CORUÑÉS S.D.C. C",
-        "URAL ESPAÑOL C.F. D"
-    ],
-    "C.D. CALASANZ D": ["C.D. CIUDAD B"],
-    "CLUB ROSALÍA MERA": ["C.D. CIUDAD B"],
-    "ORILLAMAR S.D. B": ["C.D. CIUDAD B"],
-    "OZA JUVENIL S.D. C": ["C.D. CIUDAD B"],
-    "S.D. SANTA MARGARITA": ["C.D. CIUDAD B"],
-    "SANTA MARIA DEL MAR D": ["C.D. CIUDAD B"],
-    "SILVA S.D. C": ["C.D. CIUDAD B"],
-    "SP CORUÑÉS S.D.C. B": ["C.D. CIUDAD B"],
-    "SP CORUÑÉS S.D.C. C": ["C.D. CIUDAD B"],
-    "URAL ESPAÑOL C.F. D": ["C.D. CIUDAD B"]
-}
-,
-
-
-  "PREBENXAMÍN A": {
-    "C.D. CALASANZ": ["C.D. CIUDAD"],
-
-    "C.D. CIUDAD": [
-      "C.D. CALASANZ",
-      "IMPERATOR O.A.R",
-      "ORILLAMAR S.D.",
-      "C.F. OZACESURAS",
-      "OZA JUVENIL S.D.",
-      "SADA C.F.",
-      "SANTA MARIA DEL MAR",
-      "SPORTING CORUÑES S.D.",
-      "SPORTING MEICENDE B",
-      "URAL ESPAÑOL C.F.",
-      "VICTORIA C.F.",
-    ],
-    ///////////////////////////////
-    "IMPERATOR O.A.R.": ["C.D. CIUDAD"],
-    ///////////////////////////////
-    "ORILLAMAR S.D.": ["C.D. CIUDAD"],
-    //////////////////////////////
-
-    "C.F. OZACESURAS": ["C.D. CIUDAD"],
-    //////////////////////////////
-    "OZA JUVENIL S.D.": ["C.D. CIUDAD"],
-    ///////////////////////////////
-    "SADA C.F.": ["C.D. CIUDAD"],
-    ///////////////////////////////
-    "SANTA MARIA DEL MAR": ["C.D. CIUDAD"],
-    //////////////////////////////
-    "SPORTING CORUÑES S.D.": ["C.D. CIUDAD"],
-    ///////////////////////////////
-    "SPORTING MEICENDE B": ["C.D. CIUDAD"],
-    //////////////////////////////
-    "URAL ESPAÑOL C.F.": ["C.D. CIUDAD"],
-    ///////////////////////////////
-    "VICTORIA C.F.": ["C.D. CIUDAD"],
-  },
-
-  "PREBENXAMÍN B": {
-    ///////////////////////////////
-    "ATLÉTICO CASTROS B": ["C.D. CIUDAD B"],
-    "C.D. CIUDAD B": [
-      "ATLÉTICO CASTROS B",
-      "CLUB POLIDEPORTIVO ESCLAVAS",
-      "COMPAÑÍA DE MARÍA C",
-      "EIRÍS S.D.",
-      "RELÁMPAGO S. D.",
-      "S.D. SANTA MARGARITA",
-      "SANTA MARIA DEL MAR B",
       "SILVA S.D.",
-      "VICTORIA C.F.",
+      "C.D. OBRERO",
+      "SPORTING CORUÑES S.D.",
+      "S.D. BREXO LEMA",
+      'SPORTING MEICENDE "B"',
+      "ATL. CERCEDENSE",
+      "XUVENTUDE LARACHA",
+      "C.D. MARTE",
+      'IMPERATOR O.A.R. "B"',
+      "LICEO DE MONELOS S.D.",
+      "COMPAÑIA DE MARIA",
+      "UNION CAMPESTRE",
+      'SPORTING CAMBRE "B"',
+      "XUVENTUDE CRENDES C.F.",
+      "S.E. ABELLA S.D.C.",
     ],
-    //////////////////////////////
-    ///////////////////////////////
-    "CLUB POLIDEPORTIVO ESCLAVAS": ["C.D. CIUDAD B"],
-    "COMPAÑÍA DE MARÍA C": ["C.D. CIUDAD B"],
-    //////////////////////////////
-    "EIRÍS S.D.": ["C.D. CIUDAD B"],
-    ///////////////////////////////
-    "RELÁMPAGO S. D.": ["C.D. CIUDAD B"],
-    ///////////////////////////////
-    "S.D. SANTA MARGARITA": ["C.D. CIUDAD B"],
-    ///////////////////////////////
-    "SANTA MARIA DEL MAR B": ["C.D. CIUDAD B"],
-    ///////////////////////////////
     ///////////////////////////////
     "SILVA S.D.": ["C.D. CIUDAD"],
     ///////////////////////////////
-    "VICTORIA C.F.": ["C.D. CIUDAD"],
+    "C.D. OBRERO": ["C.D. CIUDAD"],
+    ///////////////////////////////
+    "SPORTING CORUÑES S.D.": ["C.D. CIUDAD"],
+    ///////////////////////////////
+    "S.D. BREXO LEMA": ["C.D. CIUDAD"],
+    ///////////////////////////////
+    'SPORTING MEICENDE "B"': ["C.D. CIUDAD"],
+    ///////////////////////////////
+    "ATL. CERCEDENSE": ["C.D. CIUDAD"],
+    ///////////////////////////////
+    "XUVENTUDE LARACHA": ["C.D. CIUDAD"],
+    ///////////////////////////////
+    "C.D. MARTE": ["C.D. CIUDAD"],
+    ///////////////////////////////
+    'IMPERATOR O.A.R. "B"': ["C.D. CIUDAD"],
+    ///////////////////////////////
+    "LICEO DE MONELOS S.D.": ["C.D. CIUDAD"],
+    ///////////////////////////////
+    "COMPAÑIA DE MARIA": ["C.D. CIUDAD"],
+    ///////////////////////////////
+    "UNION CAMPESTRE": ["C.D. CIUDAD"],
+    ///////////////////////////////
+    'SPORTING CAMBRE "B"': ["C.D. CIUDAD"],
+    ///////////////////////////////
+    "XUVENTUDE CRENDES C.F.": ["C.D. CIUDAD"],
+    ///////////////////////////////
+    "S.E. ABELLA S.D.C.": ["C.D. CIUDAD"],
   },
 
- VETERANOS: {
-  "ATLETICO ARTEIXO": [
-    "C.D. CIUDAD"
-  ],
-  ///////////////////////////////
+  "XUVENIL B": {
+  "S.C.D. PASTORIZA": ["C.D. CIUDAD"],
+  "A.D. CRISTO REY": ["C.D. CIUDAD"],
+  "UNION CAMPESTRE B": ["C.D. CIUDAD"],
+  "RELÁMPAGO S.D. B": ["C.D. CIUDAD"],
+  "A.D. LICEO": ["C.D. CIUDAD"],
+  "A.D. CULLEREDO B": ["C.D. CIUDAD"],
+  "ATLETICO PERILLO": ["C.D. CIUDAD"],
+  "SPORTING BURGO B": ["C.D. CIUDAD"],
+  "CORUÑA ARBOCO C.F.": ["C.D. CIUDAD"],
+  "CLUB DE FÚTBOL BATALLADOR S.D.": ["C.D. CIUDAD"],
+  "MARINO C.F. B": ["C.D. CIUDAD"],
+  "U.D. JUVENIL DE ALMEIRAS B": ["C.D. CIUDAD"],
+  "CLUB ROSALÍA MERA B": ["C.D. CIUDAD"],
   "C.D. CIUDAD": [
-    "ATLETICO ARTEIXO",
-    "CECEBRE S.D.",
-    "CLUB DO MAR",
-    "HERCULES S.D.",
-    "MERCURIO S.D. \"B\"",
-    "OLIMPICO C.F. \"B\"",
     "S.C.D. PASTORIZA",
-    "S.D. CULTURAL MANIÑOS",
-    "S.D. VALDOVIÑO",
-    "SPORTING CORUÑES S.D.",
-    "VIOÑO C.F."
-  ],
-  ///////////////////////////////
-  "CECEBRE S.D.": [
-    "C.D. CIUDAD"
-  ],
-  ///////////////////////////////
-  "CLUB DO MAR": [
-    "C.D. CIUDAD"
-  ],
-  ///////////////////////////////
-  "HERCULES S.D.": [
-    "C.D. CIUDAD"
-  ],
-  ///////////////////////////////
-  "MERCURIO S.D. \"B\"": [
-    "C.D. CIUDAD"
-  ],
-  ///////////////////////////////
-  "OLIMPICO C.F. \"B\"": [
-    "C.D. CIUDAD"
-  ],
-  ///////////////////////////////
-  "S.C.D. PASTORIZA": [
-    "C.D. CIUDAD"
-  ],
-  ///////////////////////////////
-  "S.D. CULTURAL MANIÑOS": [
-    "C.D. CIUDAD"
-  ],
-  ///////////////////////////////
-  "S.D. VALDOVIÑO": [
-    "C.D. CIUDAD"
-  ],
-  ///////////////////////////////
-  "SPORTING CORUÑES S.D.": [
-    "C.D. CIUDAD"
-  ],
-  ///////////////////////////////
-  "VIOÑO C.F.": [
-    "C.D. CIUDAD"
-  ],
+    "A.D. CRISTO REY",
+    "UNION CAMPESTRE B",
+    "RELÁMPAGO S.D. B",
+    "A.D. LICEO",
+    "A.D. CULLEREDO B",
+    "ATLETICO PERILLO",
+    "SPORTING BURGO B",
+    "CORUÑA ARBOCO C.F.",
+    "CLUB DE FÚTBOL BATALLADOR S.D.",
+    "MARINO C.F. B",
+    "U.D. JUVENIL DE ALMEIRAS B",
+    "CLUB ROSALÍA MERA B"
+  ]
+},
+
+  "CADETE A": {
+  "SPORTING CORUÑES S.D. B": ["C.D. CIUDAD"],
+  "IMPERATOR OAR C": ["C.D. CIUDAD"],
+  "ATLÉTICO CASTROS B": ["C.D. CIUDAD"],
+  "CORUÑA ARBOCO C.F.": ["C.D. CIUDAD"],
+  "C.F. DEPORTIVO ORZÁN B": ["C.D. CIUDAD"],
+  "A. C. RUEIRO": ["C.D. CIUDAD"],
+  "S.D. SANTA MARGARITA": ["C.D. CIUDAD"],
+  "LICEO DE MONELOS S.D. B": ["C.D. CIUDAD"],
+  "EIRIS S.D.": ["C.D. CIUDAD"],
+  "OZA JUVENIL S.D. C": ["C.D. CIUDAD"],
+  "RELÁMPAGO S.D. B": ["C.D. CIUDAD"],
+  "C. F. BATALLADOR S.D.": ["C.D. CIUDAD"],
+  "CLUB ROSALÍA MERA B": ["C.D. CIUDAD"],
+  "A.D. CULLEREDO B": ["C.D. CIUDAD"],
+  "ATLETICO ARTEIXO D": ["C.D. CIUDAD"],
+  "C.D. CIUDAD": [
+    "SPORTING CORUÑES S.D. B",
+    "IMPERATOR OAR C",
+    "ATLÉTICO CASTROS B",
+    "CORUÑA ARBOCO C.F.",
+    "C.F. DEPORTIVO ORZÁN B",
+    "A. C. RUEIRO",
+    "S.D. SANTA MARGARITA",
+    "LICEO DE MONELOS S.D. B",
+    "EIRIS S.D.",
+    "OZA JUVENIL S.D. C",
+    "RELÁMPAGO S.D. B",
+    "C. F. BATALLADOR S.D.",
+    "CLUB ROSALÍA MERA B",
+    "A.D. CULLEREDO B",
+    "ATLETICO ARTEIXO D"
+  ]
+},
+
+ "CADETE B": {
+  "ATLETICO ARTEIXO C": ["C.D. CIUDAD"],
+  "ONCE CABALLEROS C.F. B": ["C.D. CIUDAD"],
+  "U.D. PAIOSACO B": ["C.D. CIUDAD"],
+  "ATLETICO SAN PEDRO B": ["C.D. CIUDAD"],
+  "SILVA S.D. C": ["C.D. CIUDAD"],
+  "SAN TIRSO S.D. D": ["C.D. CIUDAD"],
+  "SADA C.F. C": ["C.D. CIUDAD"],
+  "UD CARRAL B": ["C.D. CIUDAD"],
+  "SDC ORDENES B": ["C.D. CIUDAD"],
+  "OLIMPICO C.F. B": ["C.D. CIUDAD"],
+  "SPORTING CAMBRE B": ["C.D. CIUDAD"],
+  "BETANZOS C.F. B": ["C.D. CIUDAD"],
+  "UNION CAMPESTRE B": ["C.D. CIUDAD"],
+  "SPORTING MEICENDE B": ["C.D. CIUDAD"],
+  "CARNOEDO C.F.": ["C.D. CIUDAD"],
+  "C.D. CIUDAD": [
+    "ATLETICO ARTEIXO C",
+    "ONCE CABALLEROS C.F. B",
+    "U.D. PAIOSACO B",
+    "ATLETICO SAN PEDRO B",
+    "SILVA S.D. C",
+    "SAN TIRSO S.D. D",
+    "SADA C.F. C",
+    "UD CARRAL B",
+    "SDC ORDENES B",
+    "OLIMPICO C.F. B",
+    "SPORTING CAMBRE B",
+    "BETANZOS C.F. B",
+    "UNION CAMPESTRE B",
+    "SPORTING MEICENDE B",
+    "CARNOEDO C.F."
+  ]
+},
+
+
+"INFANTÍS": {
+"C.D. CIUDAD": [
+"PORTAZGO S.D.",
+"VICTORIA C.F. C",
+"SPORTING CORUÑÉS B",
+"ORILLAMAR S.D. B",
+"C.D. CALASANZ C",
+"ATL. CORUÑA MONTAÑEROS C.F. C",
+"RELÁMPAGO S.D.",
+"C.F. BATALLADOR S.D.",
+"IMPERATOR O.A.R. B",
+"SPORTING BURGO",
+"SANTA MARÍA DEL MAR",
+"OZA JUVENIL S.D. B",
+"SILVA S.D. B",
+"URAL ESPAÑOL C.F. C",
+"A. C. RUEIRO"
+],
+
+
+"PORTAZGO S.D.": ["C.D. CIUDAD"],
+"VICTORIA C.F. C": ["C.D. CIUDAD"],
+"SPORTING CORUÑÉS B": ["C.D. CIUDAD"],
+"ORILLAMAR S.D. B": ["C.D. CIUDAD"],
+"C.D. CALASANZ C": ["C.D. CIUDAD"],
+"ATL. CORUÑA MONTAÑEROS C.F. C": ["C.D. CIUDAD"],
+"RELÁMPAGO S.D.": ["C.D. CIUDAD"],
+"C.F. BATALLADOR S.D.": ["C.D. CIUDAD"],
+"IMPERATOR O.A.R. B": ["C.D. CIUDAD"],
+"SPORTING BURGO": ["C.D. CIUDAD"],
+"SANTA MARÍA DEL MAR": ["C.D. CIUDAD"],
+"OZA JUVENIL S.D. B": ["C.D. CIUDAD"],
+"SILVA S.D. B": ["C.D. CIUDAD"],
+"URAL ESPAÑOL C.F. C": ["C.D. CIUDAD"],
+"A. C. RUEIRO": ["C.D. CIUDAD"]
+
+
 }
+
+,
+
+
+
+
+
+
+  "ALEVÍN A": {
+    "SILVA S.D.": ["C.D. CIUDAD"],
+    "VICTORIA C.F. B": ["C.D. CIUDAD"],
+    "VIOÑO C.F. A": ["C.D. CIUDAD"],
+    "C.D. CALASANZ F": ["C.D. CIUDAD"],
+    "SPORTING CORUÑES C": ["C.D. CIUDAD"],
+    "C.D. CIUDAD": [
+      "SILVA S.D.",
+      "VICTORIA C.F. B",
+      "VIOÑO C.F. A",
+      "C.D. CALASANZ F",
+      "SPORTING CORUÑES C",
+      "C.D. CIUDAD JARDIN B",
+      "RELÁMPAGO S. D. B",
+      "URAL ESPAÑOL C.F. C",
+      "C.D. MARTE A"
+    ],
+    "C.D. CIUDAD JARDIN B": ["C.D. CIUDAD"],
+    "RELÁMPAGO S. D. B": ["C.D. CIUDAD"],
+    "URAL ESPAÑOL C.F. C": ["C.D. CIUDAD"],
+    "C.D. MARTE A": ["C.D. CIUDAD"]
+  }
+,
+
+
+  "ALEVÍN B": {
+    "IMPERATOR O.A.R.": ["C.D. CIUDAD"],
+    "C.D. CALASANZ E": ["C.D. CIUDAD"],
+    "C.D. CIUDAD": [
+      "IMPERATOR O.A.R.",
+      "C.D. CALASANZ E",
+      "C.D. CIUDAD JARDÍN",
+      "A. C. RUEIRO",
+      "ORILLAMAR S.D. B",
+      "ATL. CORUÑA MONTAÑEROS C.F. C",
+      "URAL ESPAÑOL C.F. D",
+      "C.F. BATALLADOR S.D.",
+      "ACADEMIA CORUÑA DEPORTIVA B"
+    ],
+    "C.D. CIUDAD JARDÍN": ["C.D. CIUDAD"],
+    "A. C. RUEIRO": ["C.D. CIUDAD"],
+    "ORILLAMAR S.D. B": ["C.D. CIUDAD"],
+    "ATL. CORUÑA MONTAÑEROS C.F. C": ["C.D. CIUDAD"],
+    "URAL ESPAÑOL C.F. D": ["C.D. CIUDAD"],
+    "C.F. BATALLADOR S.D.": ["C.D. CIUDAD"],
+    "ACADEMIA CORUÑA DEPORTIVA B": ["C.D. CIUDAD"]
+  }
+
+,
+
+
+  "ALEVÍN C": {
+    "C.D. CIUDAD": [
+      "SPORTING CORUÑES",
+      "SANTA MARIA DEL MAR B",
+      "CLUB ROSALÍA MERA",
+      "OZA JUVENIL S.D. B",
+      "IMPERATOR O.A.R. B",
+      "ATLETICO CASTROS B",
+      "C.D. CALASANZ D",
+      "EIRIS S.D. B",
+      "ACADEMIA CORUÑA DEPORTIVA"
+    ],
+    "SPORTING CORUÑES": ["C.D. CIUDAD"],
+    "SANTA MARIA DEL MAR B": ["C.D. CIUDAD"],
+    "CLUB ROSALÍA MERA": ["C.D. CIUDAD"],
+    "OZA JUVENIL S.D. B": ["C.D. CIUDAD"],
+    "IMPERATOR O.A.R. B": ["C.D. CIUDAD"],
+    "ATLETICO CASTROS B": ["C.D. CIUDAD"],
+    "C.D. CALASANZ D": ["C.D. CIUDAD"],
+    "EIRIS S.D. B": ["C.D. CIUDAD"],
+    "ACADEMIA CORUÑA DEPORTIVA": ["C.D. CIUDAD"]
+  }
+,
+  
+
+
+
+  "BENXAMÍNS": {
+    "C.D. CIUDAD": [
+      "TORRE S.D.",
+      "IMPERATOR O.A.R. B",
+      "C. P. ESCLAVAS B",
+      "URAL ESPAÑOL C.F. B",
+      "VICTORIA C.F. B",
+      "C.D. CIUDAD JARDIN",
+      "SPORTING CORUÑES C",
+      "SILVA S.D. B",
+      "SANTA MARIA DEL MAR D"
+    ],
+    "TORRE S.D.": ["C.D. CIUDAD"],
+    "IMPERATOR O.A.R. B": ["C.D. CIUDAD"],
+    "C. P. ESCLAVAS B": ["C.D. CIUDAD"],
+    "URAL ESPAÑOL C.F. B": ["C.D. CIUDAD"],
+    "VICTORIA C.F. B": ["C.D. CIUDAD"],
+    "C.D. CIUDAD JARDIN": ["C.D. CIUDAD"],
+    "SPORTING CORUÑES C": ["C.D. CIUDAD"],
+    "SILVA S.D. B": ["C.D. CIUDAD"],
+    "SANTA MARIA DEL MAR D": ["C.D. CIUDAD"]
+  }
+
+
+,
+
+
+  "PREBENXAMÍNS": {
+    "C.D. CIUDAD": [
+      "ATLETICO CASTROS B",
+      "ATL. CORUÑA MONTAÑEROS B",
+      "C.F. BATALLADOR S.D. B",
+      "SANTA MARIA DEL MAR C",
+      "IMPERATOR O.A.R.",
+      "C.D. CALASANZ B",
+      "RELÁMPAGO S. D.",
+      "C. P. ESCLAVAS",
+      "C.D. CIUDAD JARDÍN"
+    ],
+    "ATLETICO CASTROS B": ["C.D. CIUDAD"],
+    "ATL. CORUÑA MONTAÑEROS B": ["C.D. CIUDAD"],
+    "C.F. BATALLADOR S.D. B": ["C.D. CIUDAD"],
+    "SANTA MARIA DEL MAR C": ["C.D. CIUDAD"],
+    "IMPERATOR O.A.R.": ["C.D. CIUDAD"],
+    "C.D. CALASANZ B": ["C.D. CIUDAD"],
+    "RELÁMPAGO S. D.": ["C.D. CIUDAD"],
+    "C. P. ESCLAVAS": ["C.D. CIUDAD"],
+    "C.D. CIUDAD JARDÍN": ["C.D. CIUDAD"]
+  },
+
+
+  
+
+  "VETERANOS": {
+    "C.D. CIUDAD": [
+      "IMPERATOR OAR",
+      "OSEIRO CLICKFER ARTEIXO",
+      "C.F. CARNOEDO",
+      "S.D. VALDOVIÑO",
+      "GALICIA GAITEIRA",
+      "C.D. MARTE",
+      "S.C.D. PASTORIZA",
+      "HERCULES S.D.",
+      "PIADELA C.F.",
+      "A DO CUÑADO NOVO MESOIRO",
+      "SPORTING CORUÑES ASADOR LA CABAÑA B",
+      "ONCE CABALLEROS C.F",
+      "RACING SADA FÚTBOL CLUB"
+    ],
+    "IMPERATOR OAR": ["C.D. CIUDAD"],
+    "OSEIRO CLICKFER ARTEIXO": ["C.D. CIUDAD"],
+    "C.F. CARNOEDO": ["C.D. CIUDAD"],
+    "S.D. VALDOVIÑO": ["C.D. CIUDAD"],
+    "GALICIA GAITEIRA": ["C.D. CIUDAD"],
+    "C.D. MARTE": ["C.D. CIUDAD"],
+    "S.C.D. PASTORIZA": ["C.D. CIUDAD"],
+    "HERCULES S.D.": ["C.D. CIUDAD"],
+    "PIADELA C.F.": ["C.D. CIUDAD"],
+    "A DO CUÑADO NOVO MESOIRO": ["C.D. CIUDAD"],
+    "SPORTING CORUÑES ASADOR LA CABAÑA B": ["C.D. CIUDAD"],
+    "ONCE CABALLEROS C.F": ["C.D. CIUDAD"],
+    "RACING SADA FÚTBOL CLUB": ["C.D. CIUDAD"]
+  }
+
 
 };
 var competitionObject = [
   "3ª FUTGAL",
-  "3ª FUTGAL XUVENIL",
-  "2ª FUTGAL CADETE",
-  "3ª FUTGAL CADETE",
-  "3ª FUTGAL INFANTIL",
-  "3ª FUTGAL INFANTIL",
-  "SEGUNDA ALEVIN F-8",
+  "2ª FUTGAL",
+
+  "ALEVIN F-7 - SEGUNDA FUTGAL",
   "TERCERA ALEVIN F-8",
   "TERCERA BENJAMIN F-8",
   "PRIMERA PREBENJAMIN F-8",
@@ -487,17 +406,18 @@ var competitionObject = [
 ];
 var categoryCompetitionMap = {
   "AFECCIONADOS": "3ª FUTGAL",
-  "XUVENÍS": "3ª FUTGAL XUVENIL",
-  "CADETE A": "2ª FUTGAL CADETE",
-  "CADETE B": "3ª FUTGAL CADETE",
-  "INFANTIL A": "3ª FUTGAL INFANTIL",
-  "INFANTIL B": "3ª FUTGAL INFANTIL",
-  "ALEVÍNS": "SEGUNDA ALEVIN F-8",
-  "BENXAMÍN A": "TERCERA BENJAMIN F-8",
-  "BENXAMÍN B": "TERCERA BENJAMIN F-8",
-  "PREBENXAMÍN A": "PRIMERA PREBENJAMIN F-8",
-  "PREBENXAMÍN B": "PRIMERA PREBENJAMIN F-8",
-  "VETERANOS": "3ª AUTONÓMICA VETERANOS"
+  "XUVENIL A": "2ª FUTGAL",
+  "XUVENIL B": "3ª FUTGAL",
+  "CADETE A": "3ª FUTGAL",
+  "CADETE B": "3ª FUTGAL",
+  "INFANTÍS": "2ª FUTGAL",
+  
+  "ALEVÍN A": "ALEVIN F-7 - SEGUNDA FUTGAL",
+  "ALEVÍN A": "ALEVIN F-7 - SEGUNDA FUTGAL",
+  "ALEVÍN C": "ALEVIN F-7 - SEGUNDA FUTGAL",
+  "BENXAMÍNS": "2ª FUTGAL",
+    "PREBENXAMÍNS": "2ª FUTGAL",
+    "VETERANOS": "3ª AUTONÓMICA VETERANOS"
 };
 window.onload = function () {
   var subjectSel = document.getElementById("subject");

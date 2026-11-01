@@ -6,8 +6,11 @@
   
   // Limpiar resultado anterior si existe
   resultDiv.innerHTML = '';
-  
-  html2canvas(elm).then(function(canvas) { 
+const img = elm.querySelector('.category img');
+
+img.style.objectFit = 'fill';
+
+html2canvas(elm).then(function(canvas) {
     resultDiv.append(canvas);
     
     let cvs = document.querySelector("canvas"); 
