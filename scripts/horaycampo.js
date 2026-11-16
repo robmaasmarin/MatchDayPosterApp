@@ -11,7 +11,7 @@ function hourandpitch() {
 
     document.getElementById("horaecampo").innerHTML =
         `<div class="hora-wrapper">
-            <img src="../img/extras/clock-solid-full.png" alt="" class="icono-hora">
+            <img src="./img/extras/clock-solid-full.png" alt="" class="icono-hora">
             <span class="hora">${hora} H</span>
             <span class="campo">- ${campoValue.replace("-", " - ")}</span>
          </div>`;
