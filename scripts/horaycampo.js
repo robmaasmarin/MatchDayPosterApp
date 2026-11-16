@@ -15,4 +15,10 @@ function hourandpitch() {
             <span class="hora">${hora} H</span>
             <span class="campo">- ${campoValue.replace("-", " - ")}</span>
          </div>`;
+             const icono = document.querySelector(".icono-hora");
+
+    console.log("Ruta del icono:", icono.src);
+
+    icono.onload = () => console.log("Icono cargado correctamente");
+    icono.onerror = () => console.error("Error al cargar:", icono.src);
 }
