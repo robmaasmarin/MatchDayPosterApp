@@ -68,9 +68,11 @@ function dayOfTheWeek(params) {
         diaTexto = "SÁBADO" + ", " + diaEnNumero + " DE " + month
     }
 
-    document.getElementById("daytodisplay").innerHTML =
-        `<div class="fecha-wrapper">
-            <img src="../img/extras/calendar-days-regular-full.png" alt="" class="icono-fecha">
-            <span class="fecha-texto">${diaTexto}</span>
-         </div>`;
+    const rutaCalendario = obtenerRutaExtra("calendar-days-regular-full.png");
+
+document.getElementById("daytodisplay").innerHTML =
+    `<div class="fecha-wrapper">
+        <img src="${rutaCalendario}" alt="" class="icono-fecha">
+        <span class="fecha-texto">${diaTexto}</span>
+     </div>`;
 }
