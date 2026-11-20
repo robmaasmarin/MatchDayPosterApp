@@ -28,4 +28,7 @@ function whichcategory() {
 ligaEl.innerHTML = ligaImagePath
     ? '<img src="' + ligaImagePath.replace("../img/", "./img/") + '" alt="' + competitionValue + '">'
     : "-" + competitionValue + "-";
+
+    document.getElementById("teamlocal").innerHTML = document.getElementById("topic").value;
+document.getElementById("teamvisitante").innerHTML = document.getElementById("chapter").value;
 }
