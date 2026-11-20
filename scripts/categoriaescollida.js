@@ -19,7 +19,7 @@ function whichcategory() {
 
     if (imagePath) {
         document.getElementById("category").innerHTML =
-            '<img src="' + imagePath + '" alt="' + categoryValue + '">';
+            '<img src="' + imagePath.replace("../img/", "./img/") + '" alt="' + categoryValue + '">''<img src="' + imagePath + '" alt="' + categoryValue + '">';
     }
 
     
