@@ -255,18 +255,18 @@ window.obtenerRutaImagen = function(carpeta, archivo) {
 };
 
 const categoryImages = {
-    "AFECCIONADOS": "./img/extras/categories/afeccionadoscanva.png",
-    "XUVENIL A": "../img/categories/xuvenil-a.png",
-    "XUVENIL B": "../img/categories/xuvenil-b.png",
-    "CADETE A": "../img/categories/cadete-a.png",
-    "CADETE B": "../img/categories/cadete-b.png",
-    "INFANTÍS": "../img/categories/infantiles.png",
-    "ALEVÍN A": "../img/categories/alevin-a.png",
-    "ALEVÍN B": "../img/categories/alevin-b.png",
-    "ALEVÍN C": "../img/categories/alevin-c.png",
-    "BENXAMÍNS": "../img/categories/benxamins.png",
-    "PREBENXAMÍNS": "../img/categories/prebenxamins.png",
-     "VETERANOS": "../img/categories/veteranos.png"
+    "AFECCIONADOS": "./img/categories/afeccionadoscanva.png",
+    "XUVENIL A": "./img/categories/xuvenil-a.png",
+    "XUVENIL B": "./img/categories/xuvenil-b.png",
+    "CADETE A": "./img/categories/cadete-a.png",
+    "CADETE B": "./img/categories/cadete-b.png",
+    "INFANTÍS": "./img/categories/infantiles.png",
+    "ALEVÍN A": "./img/categories/alevin-a.png",
+    "ALEVÍN B": "./img/categories/alevin-b.png",
+    "ALEVÍN C": "./img/categories/alevin-c.png",
+    "BENXAMÍNS": "./img/categories/benxamins.png",
+    "PREBENXAMÍNS": "./img/categories/prebenxamins.png",
+    "VETERANOS": "./img/categories/veteranos.png"
 };
 
 const ligaImages = {
