@@ -23,10 +23,9 @@ function whichcategory() {
     }
 
     
-        const ligaImagePath = ligaImages[competitionValue]; // <-- crea este objeto igual que categoryImages
-    ligaEl.innerHTML = ligaImagePath
-        ? '<img src="' + ligaImagePath + '" alt="' + competitionValue + '">'
-        : "-" + competitionValue + "-";
-    document.getElementById("teamlocal").innerHTML = document.getElementById("topic").value;
-    document.getElementById("teamvisitante").innerHTML = document.getElementById("chapter").value;
+        const ligaImagePath = ligaImages[competitionValue];
+
+ligaEl.innerHTML = ligaImagePath
+    ? '<img src="' + ligaImagePath.replace("../img/", "./img/") + '" alt="' + competitionValue + '">'
+    : "-" + competitionValue + "-";
 }
