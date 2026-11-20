@@ -270,11 +270,11 @@ const categoryImages = {
 };
 
 const ligaImages = {
-  "1ª FUTGAL": "../img/ligas/1futgal.png",
-  "2ª FUTGAL": "../img/ligas/2afutgal.png",
-  "3ª FUTGAL": "../img/ligas/3afutgal.png",
-  "ALEVIN F-7 - SEGUNDA FUTGAL": "../img/ligas/f72afutgal.png",
-  "3ª AUTONÓMICA VETERANOS": "../img/ligas/3aautonomica.png"
+  "1ª FUTGAL": "./img/ligas/1futgal.png",
+  "2ª FUTGAL": "./img/ligas/2afutgal.png",
+  "3ª FUTGAL": "./img/ligas/3afutgal.png",
+  "ALEVIN F-7 - SEGUNDA FUTGAL": "./img/ligas/f72afutgal.png",
+  "3ª AUTONÓMICA VETERANOS": "./img/ligas/3aautonomica.png"
 
   // ...
 };
