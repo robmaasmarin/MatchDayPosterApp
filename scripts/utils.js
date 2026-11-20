@@ -250,27 +250,29 @@ window.obtenerRutaExtra = function(archivo) {
   return `./img/extras/${archivo}`;
 };
 
+window.obtenerRutaImagen = function(carpeta, archivo) {
+    return `./img/${carpeta}/${archivo}`;
+};
+
 const categoryImages = {
-    "AFECCIONADOS": "../img/categories/afeccionadoscanva.png",
-    "XUVENIL A": "../img/categories/xuvenil-a.png",
-    "XUVENIL B": "../img/categories/xuvenil-b.png",
-    "CADETE A": "../img/categories/cadete-a.png",
-    "CADETE B": "../img/categories/cadete-b.png",
-    "INFANTÍS": "../img/categories/infantiles.png",
-    "ALEVÍN A": "../img/categories/alevin-a.png",
-    "ALEVÍN B": "../img/categories/alevin-b.png",
-    "ALEVÍN C": "../img/categories/alevin-c.png",
-    "BENXAMÍNS": "../img/categories/benxamins.png",
-    "PREBENXAMÍNS": "../img/categories/prebenxamins.png",
-     "VETERANOS": "../img/categories/veteranos.png"
+    "AFECCIONADOS": "afeccionadoscanva.png",
+    "XUVENIL A": "xuvenil-a.png",
+    "XUVENIL B": "xuvenil-b.png",
+    "CADETE A": "cadete-a.png",
+    "CADETE B": "cadete-b.png",
+    "INFANTÍS": "infantiles.png",
+    "ALEVÍN A": "alevin-a.png",
+    "ALEVÍN B": "alevin-b.png",
+    "ALEVÍN C": "alevin-c.png",
+    "BENXAMÍNS": "benxamins.png",
+    "PREBENXAMÍNS": "prebenxamins.png",
+    "VETERANOS": "veteranos.png"
 };
 
 const ligaImages = {
-  "1ª FUTGAL": "../img/ligas/1futgal.png",
-  "2ª FUTGAL": "../img/ligas/2afutgal.png",
-  "3ª FUTGAL": "../img/ligas/3afutgal.png",
-  "ALEVIN F-7 - SEGUNDA FUTGAL": "../img/ligas/f72afutgal.png",
-  "3ª AUTONÓMICA VETERANOS": "../img/ligas/3aautonomica.png"
-
-  // ...
+    "1ª FUTGAL": "1futgal.png",
+    "2ª FUTGAL": "2afutgal.png",
+    "3ª FUTGAL": "3afutgal.png",
+    "ALEVIN F-7 - SEGUNDA FUTGAL": "f72afutgal.png",
+    "3ª AUTONÓMICA VETERANOS": "3aautonomica.png"
 };
