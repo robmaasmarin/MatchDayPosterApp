@@ -29,6 +29,13 @@ ligaEl.innerHTML = ligaImagePath
     ? '<img src="' + ligaImagePath.replace("../img/", "./img/") + '" alt="' + competitionValue + '">'
     : "-" + competitionValue + "-";
 
-    document.getElementById("teamlocal").innerHTML = document.getElementById("topic").value;
-document.getElementById("teamvisitante").innerHTML = document.getElementById("chapter").value;
+actualizarNombresEquipos();
+}
+
+function actualizarNombresEquipos() {
+    document.getElementById("teamlocal").textContent =
+        document.getElementById("topic").value;
+
+    document.getElementById("teamvisitante").textContent =
+        document.getElementById("chapter").value;
 }
