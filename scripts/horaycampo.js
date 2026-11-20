@@ -8,17 +8,12 @@ function hourandpitch() {
             : campoSelect.value;
 
     const hora = document.getElementById("appt").value;
+    const rutaReloj = obtenerRutaExtra("clock-solid-full.png");
 
     document.getElementById("horaecampo").innerHTML =
         `<div class="hora-wrapper">
-            <img src="./img/extras/clock-solid-full.png" alt="" class="icono-hora">
+            <img src="${rutaReloj}" alt="" class="icono-hora">
             <span class="hora">${hora} H</span>
             <span class="campo">- ${campoValue.replace("-", " - ")}</span>
          </div>`;
-             const icono = document.querySelector(".icono-hora");
-
-    console.log("Ruta del icono:", icono.src);
-
-    icono.onload = () => console.log("Icono cargado correctamente");
-    icono.onerror = () => console.error("Error al cargar:", icono.src);
 }

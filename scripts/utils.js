@@ -246,6 +246,10 @@ function alignRows(selectorFecha, selectorHora) {
     filaHora.style.width = anchoMax + "px";
 }
 
+function obtenerRutaExtra(archivo) {
+  return `./img/extras/${archivo}`;
+}
+
 const categoryImages = {
     "AFECCIONADOS": "../img/categories/afeccionadoscanva.png",
     "XUVENIL A": "../img/categories/xuvenil-a.png",
