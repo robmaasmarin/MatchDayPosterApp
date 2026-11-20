@@ -18,9 +18,9 @@ function whichcategory() {
     const imagePath = categoryImages[categoryValue];
 
     if (imagePath) {
-        document.getElementById("category").innerHTML =
-            '<img src="' + imagePath.replace("../img/", "./img/") + '" alt="' + categoryValue + '">''<img src="' + imagePath + '" alt="' + categoryValue + '">';
-    }
+    document.getElementById("category").innerHTML =
+        '<img src="' + imagePath.replace("../img/", "./img/") + '" alt="' + categoryValue + '">';
+}
 
     
         const ligaImagePath = ligaImages[competitionValue];
