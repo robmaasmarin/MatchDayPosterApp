@@ -255,7 +255,7 @@ window.obtenerRutaImagen = function(carpeta, archivo) {
 };
 
 const categoryImages = {
-    "AFECCIONADOS": "./img/categories/afeccionadoscanva.png",
+"AFECCIONADOS": "../img/categories/afeccionadoscanva.png",
     "XUVENIL A": "xuvenil-a.png",
     "XUVENIL B": "xuvenil-b.png",
     "CADETE A": "cadete-a.png",
